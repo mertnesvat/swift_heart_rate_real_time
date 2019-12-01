@@ -56,5 +56,9 @@
 	</array>
 	<key>WKExtensionDelegateClassName</key>
 	<string>$(PRODUCT_MODULE_NAME).ExtensionDelegate</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>Workout needs to be created because of bla bla.</string>
+	<key>NSHealthShareUsageDescription</key>
+	<string>Workout needs to be created because of bla bla.</string>
 </dict>
 </plist>
