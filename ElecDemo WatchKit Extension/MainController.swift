@@ -23,6 +23,11 @@ class MainController: WKInterfaceController {
         WorkoutTracking.shared.startWorkOut()
         WorkoutTracking.shared.delegate = self
         
+        MotionTracking.shared.configMotionTracker()
+        MotionTracking.shared.startTracking()
+        MotionTracking.shared.delegate = self
+        
+        
         WatchKitConnection.shared.delegate = self
         WatchKitConnection.shared.startSession()
     }
@@ -31,7 +36,7 @@ class MainController: WKInterfaceController {
         // This method is called when watch view controller is about to be visible to user
         super.willActivate()
         print("WILL ACTIVE")
-        WorkoutTracking.shared.fetchStepCounts()
+//        WorkoutTracking.shared.fetchStepCounts()
     }
     
     override func didDeactivate() {
@@ -60,6 +65,13 @@ extension MainController: WorkoutTrackingDelegate {
     
     func didReceiveHealthKitStepCounts(_ stepCounts: Double) {
         stepCountsLabel.setText("\(stepCounts) STEPS")
+    }
+}
+
+extension MainController: WatchMotionTrackingDelegate {
+    func needsSendData(_ motionData: String) {
+        WatchKitConnection.shared.sendMessage(message: ["motion":
+            motionData as AnyObject])
     }
 }
 

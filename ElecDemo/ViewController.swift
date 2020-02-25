@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var console: UITextView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -26,5 +27,14 @@ class ViewController: UIViewController {
 extension ViewController: WatchKitConnectionDelegate {
     func didFinishedActiveSession() {
         WatchKitConnection.shared.sendMessage(message: ["username" : "nhathm" as AnyObject])
+    }
+    
+    func showInConsole(message: [String : Any]) {
+        DispatchQueue.main.async {
+            self.console.text = self.console.text + "\n\(message.values.first!)"
+            let range = NSRange(location: self.console.text.count - 1, length: 1)
+            self.console.scrollRangeToVisible(range)
+        }
+        
     }
 }

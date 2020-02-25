@@ -11,6 +11,7 @@ import WatchConnectivity
 
 protocol WatchKitConnectionDelegate: class {
     func didFinishedActiveSession()
+    func showInConsole(message: [String:Any])
 }
 
 protocol WatchKitConnectionProtocol {
@@ -87,12 +88,20 @@ extension WatchKitConnection: WCSessionDelegate {
     func session(_ session: WCSession, didReceiveMessage message: [String : Any], replyHandler: @escaping ([String : Any]) -> Void) {
         print("didReceiveMessage with reply")
         print(message)
+        self.delegate?.showInConsole(message: message)
         guard let heartReate = message.values.first as? String else {
             return
         }
         guard let heartReateDouble = Double(heartReate) else {
             return
         }
-        LocalNotificationHelper.fireHeartRate(heartReateDouble)
+        
+        // motion data
+        
+//        LocalNotificationHelper.fireHeartRate(heartReateDouble)
+    }
+    
+    func session(_ session: WCSession, didFinish fileTransfer: WCSessionFileTransfer, error: Error?) {
+        // TODO
     }
 }

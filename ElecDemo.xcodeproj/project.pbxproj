@@ -12,8 +12,6 @@
 		0C278F3822FD3E8200818F9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C278F3622FD3E8200818F9A /* Main.storyboard */; };
 		0C278F3A22FD3E8400818F9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C278F3922FD3E8400818F9A /* Assets.xcassets */; };
 		0C278F3D22FD3E8400818F9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C278F3B22FD3E8400818F9A /* LaunchScreen.storyboard */; };
-		0C278F4822FD3E8400818F9A /* ElecDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C278F4722FD3E8400818F9A /* ElecDemoTests.swift */; };
-		0C278F5322FD3E8400818F9A /* ElecDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C278F5222FD3E8400818F9A /* ElecDemoUITests.swift */; };
 		0C278F5822FD3E8400818F9A /* ElecDemo WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0C278F5722FD3E8400818F9A /* ElecDemo WatchKit App.app */; };
 		0C278F5E22FD3E8400818F9A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C278F5C22FD3E8400818F9A /* Interface.storyboard */; };
 		0C278F6022FD3E8500818F9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C278F5F22FD3E8500818F9A /* Assets.xcassets */; };
@@ -31,23 +29,10 @@
 		0C66C22E23012B8B0032505C /* WatchWorkoutTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C66C22D23012B8B0032505C /* WatchWorkoutTracking.swift */; };
 		0CA35A5A2302337D00B25189 /* WatchKitConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA35A592302337D00B25189 /* WatchKitConnection.swift */; };
 		0CA35A5C230272A500B25189 /* APIFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA35A5B230272A500B25189 /* APIFetcher.swift */; };
+		D70938472404AC0B00A87E46 /* WatchMotionTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70938462404AC0B00A87E46 /* WatchMotionTracker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0C278F4422FD3E8400818F9A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0C278F2722FD3E8200818F9A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0C278F2E22FD3E8200818F9A;
-			remoteInfo = ElecDemo;
-		};
-		0C278F4F22FD3E8400818F9A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0C278F2722FD3E8200818F9A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0C278F2E22FD3E8200818F9A;
-			remoteInfo = ElecDemo;
-		};
 		0C278F5922FD3E8400818F9A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0C278F2722FD3E8200818F9A /* Project object */;
@@ -97,12 +82,6 @@
 		0C278F3922FD3E8400818F9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C278F3C22FD3E8400818F9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C278F3E22FD3E8400818F9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0C278F4322FD3E8400818F9A /* ElecDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElecDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C278F4722FD3E8400818F9A /* ElecDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElecDemoTests.swift; sourceTree = "<group>"; };
-		0C278F4922FD3E8400818F9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0C278F4E22FD3E8400818F9A /* ElecDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElecDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C278F5222FD3E8400818F9A /* ElecDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElecDemoUITests.swift; sourceTree = "<group>"; };
-		0C278F5422FD3E8400818F9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C278F5722FD3E8400818F9A /* ElecDemo WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ElecDemo WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C278F5D22FD3E8400818F9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		0C278F5F22FD3E8500818F9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -125,6 +104,7 @@
 		0C66C22D23012B8B0032505C /* WatchWorkoutTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchWorkoutTracking.swift; sourceTree = "<group>"; };
 		0CA35A592302337D00B25189 /* WatchKitConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchKitConnection.swift; sourceTree = "<group>"; };
 		0CA35A5B230272A500B25189 /* APIFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIFetcher.swift; sourceTree = "<group>"; };
+		D70938462404AC0B00A87E46 /* WatchMotionTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchMotionTracker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,20 +113,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C66C227230121660032505C /* HealthKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0C278F4022FD3E8400818F9A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0C278F4B22FD3E8400818F9A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,8 +131,6 @@
 			isa = PBXGroup;
 			children = (
 				0C278F3122FD3E8200818F9A /* ElecDemo */,
-				0C278F4622FD3E8400818F9A /* ElecDemoTests */,
-				0C278F5122FD3E8400818F9A /* ElecDemoUITests */,
 				0C278F5B22FD3E8400818F9A /* ElecDemo WatchKit App */,
 				0C278F6A22FD3E8500818F9A /* ElecDemo WatchKit Extension */,
 				0C278F3022FD3E8200818F9A /* Products */,
@@ -178,8 +142,6 @@
 			isa = PBXGroup;
 			children = (
 				0C278F2F22FD3E8200818F9A /* ElecDemo.app */,
-				0C278F4322FD3E8400818F9A /* ElecDemoTests.xctest */,
-				0C278F4E22FD3E8400818F9A /* ElecDemoUITests.xctest */,
 				0C278F5722FD3E8400818F9A /* ElecDemo WatchKit App.app */,
 				0C278F6622FD3E8500818F9A /* ElecDemo WatchKit Extension.appex */,
 			);
@@ -204,24 +166,6 @@
 			path = ElecDemo;
 			sourceTree = "<group>";
 		};
-		0C278F4622FD3E8400818F9A /* ElecDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				0C278F4722FD3E8400818F9A /* ElecDemoTests.swift */,
-				0C278F4922FD3E8400818F9A /* Info.plist */,
-			);
-			path = ElecDemoTests;
-			sourceTree = "<group>";
-		};
-		0C278F5122FD3E8400818F9A /* ElecDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				0C278F5222FD3E8400818F9A /* ElecDemoUITests.swift */,
-				0C278F5422FD3E8400818F9A /* Info.plist */,
-			);
-			path = ElecDemoUITests;
-			sourceTree = "<group>";
-		};
 		0C278F5B22FD3E8400818F9A /* ElecDemo WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
@@ -239,6 +183,7 @@
 				0C66C21E23010FEE0032505C /* MainController.swift */,
 				0CA35A592302337D00B25189 /* WatchKitConnection.swift */,
 				0C66C22D23012B8B0032505C /* WatchWorkoutTracking.swift */,
+				D70938462404AC0B00A87E46 /* WatchMotionTracker.swift */,
 				0C278F6D22FD3E8500818F9A /* ExtensionDelegate.swift */,
 				0C278F6F22FD3E8500818F9A /* NotificationController.swift */,
 				0C278F7122FD3E8500818F9A /* ComplicationController.swift */,
@@ -279,42 +224,6 @@
 			productName = ElecDemo;
 			productReference = 0C278F2F22FD3E8200818F9A /* ElecDemo.app */;
 			productType = "com.apple.product-type.application";
-		};
-		0C278F4222FD3E8400818F9A /* ElecDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0C278F8422FD3E8500818F9A /* Build configuration list for PBXNativeTarget "ElecDemoTests" */;
-			buildPhases = (
-				0C278F3F22FD3E8400818F9A /* Sources */,
-				0C278F4022FD3E8400818F9A /* Frameworks */,
-				0C278F4122FD3E8400818F9A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0C278F4522FD3E8400818F9A /* PBXTargetDependency */,
-			);
-			name = ElecDemoTests;
-			productName = ElecDemoTests;
-			productReference = 0C278F4322FD3E8400818F9A /* ElecDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		0C278F4D22FD3E8400818F9A /* ElecDemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0C278F8722FD3E8500818F9A /* Build configuration list for PBXNativeTarget "ElecDemoUITests" */;
-			buildPhases = (
-				0C278F4A22FD3E8400818F9A /* Sources */,
-				0C278F4B22FD3E8400818F9A /* Frameworks */,
-				0C278F4C22FD3E8400818F9A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0C278F5022FD3E8400818F9A /* PBXTargetDependency */,
-			);
-			name = ElecDemoUITests;
-			productName = ElecDemoUITests;
-			productReference = 0C278F4E22FD3E8400818F9A /* ElecDemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 		0C278F5622FD3E8400818F9A /* ElecDemo WatchKit App */ = {
 			isa = PBXNativeTarget;
@@ -371,14 +280,6 @@
 							};
 						};
 					};
-					0C278F4222FD3E8400818F9A = {
-						CreatedOnToolsVersion = 10.2.1;
-						TestTargetID = 0C278F2E22FD3E8200818F9A;
-					};
-					0C278F4D22FD3E8400818F9A = {
-						CreatedOnToolsVersion = 10.2.1;
-						TestTargetID = 0C278F2E22FD3E8200818F9A;
-					};
 					0C278F5622FD3E8400818F9A = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -409,8 +310,6 @@
 			projectRoot = "";
 			targets = (
 				0C278F2E22FD3E8200818F9A /* ElecDemo */,
-				0C278F4222FD3E8400818F9A /* ElecDemoTests */,
-				0C278F4D22FD3E8400818F9A /* ElecDemoUITests */,
 				0C278F5622FD3E8400818F9A /* ElecDemo WatchKit App */,
 				0C278F6522FD3E8500818F9A /* ElecDemo WatchKit Extension */,
 			);
@@ -425,20 +324,6 @@
 				0C278F3D22FD3E8400818F9A /* LaunchScreen.storyboard in Resources */,
 				0C278F3A22FD3E8400818F9A /* Assets.xcassets in Resources */,
 				0C278F3822FD3E8200818F9A /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0C278F4122FD3E8400818F9A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0C278F4C22FD3E8400818F9A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,22 +360,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0C278F3F22FD3E8400818F9A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0C278F4822FD3E8400818F9A /* ElecDemoTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0C278F4A22FD3E8400818F9A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0C278F5322FD3E8400818F9A /* ElecDemoUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0C278F6222FD3E8500818F9A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -501,22 +370,13 @@
 				0C278F7222FD3E8500818F9A /* ComplicationController.swift in Sources */,
 				0CA35A5A2302337D00B25189 /* WatchKitConnection.swift in Sources */,
 				0C278F6E22FD3E8500818F9A /* ExtensionDelegate.swift in Sources */,
+				D70938472404AC0B00A87E46 /* WatchMotionTracker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0C278F4522FD3E8400818F9A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0C278F2E22FD3E8200818F9A /* ElecDemo */;
-			targetProxy = 0C278F4422FD3E8400818F9A /* PBXContainerItemProxy */;
-		};
-		0C278F5022FD3E8400818F9A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0C278F2E22FD3E8200818F9A /* ElecDemo */;
-			targetProxy = 0C278F4F22FD3E8400818F9A /* PBXContainerItemProxy */;
-		};
 		0C278F5A22FD3E8400818F9A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 0C278F5622FD3E8400818F9A /* ElecDemo WatchKit App */;
@@ -795,84 +655,6 @@
 			};
 			name = Release;
 		};
-		0C278F8522FD3E8500818F9A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ElecDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhathm.gst.pid.watchstandalone.ElecDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElecDemo.app/ElecDemo";
-			};
-			name = Debug;
-		};
-		0C278F8622FD3E8500818F9A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ElecDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhathm.gst.pid.watchstandalone.ElecDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElecDemo.app/ElecDemo";
-			};
-			name = Release;
-		};
-		0C278F8822FD3E8500818F9A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ElecDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhathm.gst.pid.watchstandalone.ElecDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ElecDemo;
-			};
-			name = Debug;
-		};
-		0C278F8922FD3E8500818F9A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ElecDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nhathm.gst.pid.watchstandalone.ElecDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ElecDemo;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -908,24 +690,6 @@
 			buildConfigurations = (
 				0C278F8222FD3E8500818F9A /* Debug */,
 				0C278F8322FD3E8500818F9A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0C278F8422FD3E8500818F9A /* Build configuration list for PBXNativeTarget "ElecDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0C278F8522FD3E8500818F9A /* Debug */,
-				0C278F8622FD3E8500818F9A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0C278F8722FD3E8500818F9A /* Build configuration list for PBXNativeTarget "ElecDemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0C278F8822FD3E8500818F9A /* Debug */,
-				0C278F8922FD3E8500818F9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
